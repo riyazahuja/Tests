@@ -1,4 +1,3 @@
-
 theorem A (p q : Prop) : p ∧ q → q ∧ p:= by
   intro hpq
   apply And.intro
